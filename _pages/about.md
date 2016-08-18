@@ -1,9 +1,9 @@
 ---
 layout:    about
 permalink: "/about/"
-author:    jwillmer
+author:    Jiang
 keywords:  about person demo example
-title:     About Jens Willmer
+title:     About Shanqi Jiang
 menutitle: About
 weight:    90
 excerpt:   This page contains the curriculum vitae (CV) of the author.
@@ -27,5 +27,5 @@ Integer sit amet libero non sapien sagittis dapibus. Phasellus gravida quam ac n
 
 ## Education
 
-2009 - 2012
+20014 - 2016
 : Mauris vitae velit vel leo suscipit tempus vel vel elit.
