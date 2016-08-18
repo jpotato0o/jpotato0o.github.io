@@ -1,8 +1,8 @@
 default:                                                      # Fallback if nothing is specified
-  initial:      JX                                            # used for author lookup in posts and for first two characters in the about page back button
+  initial:      JXie                                          # used for author lookup in posts and for first two characters in the about page back button
   name:         "Shanqi Jiang"                                # used to display author name
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
-  picture:      /assets/Jiang.jpg                          # OPTIONAL: author picture
+  picture:      /assets/Sjiang.jpg                            # OPTIONAL: author picture
   bio:          All about technology                          # OPTIONAL: text below author name in posts
   location:     China                                         # OPTIONAL: used to display location of the author
   website:      "http://jpotato0o.de/about"                   # OPTIONAL: link to the author of a post
@@ -23,7 +23,7 @@ jwillmer:
   initial:      JX
   name:         "Shanqi Jiang"        
   cover:        /assets/mountain-alternative-cover.jpg  
-  picture:      /assets/Jiang.jpg  
+  picture:      /assets/Sjiang.jpg  
   bio:          All about technology 
   location:     China 
   website:      "http://jpotato0o.de/about" 
