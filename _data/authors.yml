@@ -1,5 +1,5 @@
 default:                                                      # Fallback if nothing is specified
-  initial:      JXie                                          # used for author lookup in posts and for first two characters in the about page back button
+  initial:      Sjiang                                        # used for author lookup in posts and for first two characters in the about page back button
   name:         "Shanqi Jiang"                                # used to display author name
   cover:        /assets/mountain-cover.jpg                    # OPTIONAL: defines location of cover image in about page
   picture:      /assets/Sjiang.jpg                            # OPTIONAL: author picture
@@ -20,7 +20,7 @@ default:                                                      # Fallback if noth
   dribble:                                                    # OPTIONAL: used in the about page
   behance:                                                    # OPTIONAL: used in the about page
 jwillmer:
-  initial:      JXie
+  initial:      Sjiang
   name:         "Shanqi Jiang"        
   cover:        /assets/mountain-cover.jpg  
   picture:      /assets/Sjiang.jpg  
