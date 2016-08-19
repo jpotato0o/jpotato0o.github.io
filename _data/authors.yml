@@ -22,7 +22,7 @@ default:                                                      # Fallback if noth
 jwillmer:
   initial:      JXie
   name:         "Shanqi Jiang"        
-  cover:        /assets/mountain-alternative-cover.jpg  
+  cover:        /assets/mountain-cover.jpg  
   picture:      /assets/Sjiang.jpg  
   bio:          All about technology 
   location:     China 
