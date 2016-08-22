@@ -16,11 +16,11 @@ Install tomcat/nginx.
 
 ### install mysql
 	
-- 初始化mysql设置（）【当中有个 不区分大小写 在mysql.ini.
-- 登录mysql 有个临时密码（在日志下）.
-- 存在密码过期的问题（如果过期需修改列：password_expired）.
-- % 所有地址登录.
-- 执行 .sql文件 构建表.
+- 初始化mysql设置（）【当中有个 不区分大小写 在mysql.ini
+- 登录mysql 有个临时密码（在日志下）
+- 存在密码过期的问题（如果过期需修改列：password_expired）
+- % 所有地址登录
+- 执行 .sql文件 构建表
 
 ### copy tomcat
 
