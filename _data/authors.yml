@@ -22,7 +22,7 @@ default:                                                      # Fallback if noth
 sjiang:
   initial:      SJiang
   name:         "Shanqi Jiang"        
-  cover:        /assets/mountain-alternative-cover.jpg  
+  cover:        /assets/allaboutthenight.jpg
   picture:      /assets/sjiang.jpg  
   bio:          All about technology 
   location:     China 
