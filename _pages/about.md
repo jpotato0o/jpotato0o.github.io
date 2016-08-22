@@ -27,5 +27,5 @@ excerpt:   This page contains the curriculum vitae (CV) of the author.
 
 ## Education
 
-20014 - 2016
+2014 - 2016
 : University of Pittsburgh
