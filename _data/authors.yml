@@ -1,10 +1,10 @@
 default:                                                      # Fallback if nothing is specified
-  initial:      sjiang                                        # used for author lookup in posts and for first two characters in the about page back button
+  initial:      jwillmer                                        # used for author lookup in posts and for first two characters in the about page back button
   name:         "Shanqi Jiang"                                # used to display author name
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
   picture:      /assets/jwillmer.jpg                          # OPTIONAL: author picture
   bio:          All about technology                          # OPTIONAL: text below author name in posts
-  location:     China                                         # OPTIONAL: used to display location of the author
+  location:     usa                                           # OPTIONAL: used to display location of the author
   website:      "http://jwillmer.de/about"                    # OPTIONAL: link to the author of a post
   email:                                                      # OPTIONAL: used in the about page
   twitter:      Jpotato0o                                     # OPTIONAL: used in the about page
@@ -19,13 +19,13 @@ default:                                                      # Fallback if noth
   pinterest:                                                  # OPTIONAL: used in the about page
   dribble:                                                    # OPTIONAL: used in the about page
   behance:                                                    # OPTIONAL: used in the about page
-# jwillmer:
-#   initial:      jwillmer
-#   name:         "Jens Willmer"        
-#   cover:        /assets/mountain-alternative-cover.jpg  
-#   picture:      /assets/jwillmer.jpg  
-#   bio:          All about technology 
-#   location:     Germany 
-#   website:      "http://jwillmer.de/about" 
-#   twitter:      jenswillmer
-#   github:       jwillmer
+jwillmer:
+  initial:      SJiang
+  name:         "Shanqi Jiang"        
+  cover:        /assets/mountain-alternative-cover.jpg  
+  picture:      /assets/jwillmer.jpg  
+  bio:          All about technology 
+  location:     China 
+  website:      "http://jwillmer.de/about" 
+  twitter:      jenswillmer
+  github:       jwillmer
