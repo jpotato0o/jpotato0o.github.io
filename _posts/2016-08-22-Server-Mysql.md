@@ -79,7 +79,7 @@ free 命令显示系统使用和空闲的内存情况，包括物理内存、交
 
 tail		循环查看文件内容
 
-ps -ef[|]grep + 运行程序（java，mysql）可查看进程状态
+ps -ef l grep + 运行程序（java，mysql）可查看进程状态
 
 fdisk -l		此命令可以查看到磁盘总空间、分区情况以及每个分区的大小
 
