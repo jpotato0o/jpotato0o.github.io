@@ -3,7 +3,7 @@ layout:            post
 title:             "Server-building"
 date:              2016-08-22 12:25:00 +0300
 tags:              Server 
-category:          Read
+category:          server
 author:            sjiang
 ---
 
@@ -37,6 +37,7 @@ Install tomcat/nginx.
 ```bash
 	mysqld --defaults-file=../my.cnf --user=mysql &
 ```
+
 修改host文件 域名解析：	
 ```bash
 	vi /etc/hosts
@@ -52,7 +53,8 @@ Install tomcat/nginx.
 
 10.0.3.213 		intf2.portal.unicom.local
 
-tomcat启动日志查看：	
+tomcat启动日志查看：
+	
 ```bash
 	tail -f catalina.out
 ```
@@ -77,7 +79,7 @@ free 命令显示系统使用和空闲的内存情况，包括物理内存、交
 
 tail		循环查看文件内容
 
-ps -ef | grep + 运行程序（java，mysql）可查看进程状态
+ps -ef|grep + 运行程序（java，mysql）可查看进程状态
 
 fdisk -l		此命令可以查看到磁盘总空间、分区情况以及每个分区的大小
 
