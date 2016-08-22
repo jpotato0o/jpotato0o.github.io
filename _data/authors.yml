@@ -4,13 +4,13 @@ default:                                                      # Fallback if noth
   cover:        /assets/mountain-alternative-cover.jpg        # OPTIONAL: defines location of cover image in about page
   picture:      /assets/jwillmer.jpg                          # OPTIONAL: author picture
   bio:          All about technology                          # OPTIONAL: text below author name in posts
-  location:     usa                                           # OPTIONAL: used to display location of the author
+  location:     Germany                                       # OPTIONAL: used to display location of the author
   website:      "http://jwillmer.de/about"                    # OPTIONAL: link to the author of a post
   email:                                                      # OPTIONAL: used in the about page
-  twitter:      Jpotato0o                                     # OPTIONAL: used in the about page
+  twitter:      jwillmer                                      # OPTIONAL: used in the about page
   linkedin:                                                   # OPTIONAL: used in the about page
   xing:                                                       # OPTIONAL: used in the about page
-  github:       jpotato0o                                     # OPTIONAL: used in the about page
+  github:       jwillmer                                      # OPTIONAL: used in the about page
   stackoverflow:                                              # OPTIONAL: used in the about page
   facebook:                                                   # OPTIONAL: used in the about page
   gplus:                                                      # OPTIONAL: used in the about page
@@ -19,7 +19,7 @@ default:                                                      # Fallback if noth
   pinterest:                                                  # OPTIONAL: used in the about page
   dribble:                                                    # OPTIONAL: used in the about page
   behance:                                                    # OPTIONAL: used in the about page
-jwillmer:
+sjiang:
   initial:      SJiang
   name:         "Shanqi Jiang"        
   cover:        /assets/mountain-alternative-cover.jpg  
