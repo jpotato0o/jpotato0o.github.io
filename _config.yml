@@ -15,7 +15,7 @@ language:     "en" # default language of the blog. Language codes: http://www.w3
 baseurl:      "" # the subpath of your site, e.g. /blog
 url:          "http://jpotato0o.github.io/" # the base hostname & protocol for your site. Have a look at robots.txt as well!
 permalink:    /blog/:categories/:title
-cover:        /assets/mountain-cover.jpg
+cover:        /assets/allaboutself.jpeg
 
 # Build settings
 markdown: kramdown
