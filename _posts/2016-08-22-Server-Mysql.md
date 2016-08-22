@@ -7,10 +7,11 @@ category:          server
 author:            sjiang
 ---
 
-Install JDK.
+Install JDK
 
-Install mysql.
-Install tomcat/nginx.
+Install mysql
+
+Install tomcat/nginx
 
 
 ### install mysql
@@ -34,12 +35,12 @@ Install tomcat/nginx.
 地址：10.0.210.160：8080/upf
 
 数据库重启：
-```bash
+```
 	mysqld --defaults-file=../my.cnf --user=mysql &
 ```
 
 修改host文件 域名解析：	
-```bash
+```
 	vi /etc/hosts
 ```
 
@@ -54,8 +55,7 @@ Install tomcat/nginx.
 10.0.3.213 		intf2.portal.unicom.local
 
 tomcat启动日志查看：
-	
-```bash
+```
 	tail -f catalina.out
 ```
 
@@ -79,7 +79,7 @@ free 命令显示系统使用和空闲的内存情况，包括物理内存、交
 
 tail		循环查看文件内容
 
-ps -ef|grep + 运行程序（java，mysql）可查看进程状态
+ps -ef[|]grep + 运行程序（java，mysql）可查看进程状态
 
 fdisk -l		此命令可以查看到磁盘总空间、分区情况以及每个分区的大小
 
