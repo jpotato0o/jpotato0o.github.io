@@ -28,15 +28,12 @@ Install tomcat/nginx
 	tail -f ./logs
 ```
 
-程序在webapps下
-
-地址：10.0.210.160：8080/upf
-
+程序在webapps下  
+地址：10.0.210.160：8080/upf  
 数据库重启：
 ```
 	mysqld --defaults-file=../my.cnf --user=mysql &
-```
-
+```  
 修改host文件 域名解析：	
 ```
 	vi /etc/hosts
@@ -56,8 +53,7 @@ tomcat启动日志查看：
 
 linux命令:
 
-ll  权限查看
-
+ll  权限查看  
 free 命令显示系统使用和空闲的内存情况，包括物理内存、交互区内存(swap)和内核缓冲区内存。共享内存将被忽略
 
 命令参数:
