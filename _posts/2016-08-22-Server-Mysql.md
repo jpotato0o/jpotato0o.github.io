@@ -7,10 +7,8 @@ category:          server
 author:            sjiang
 ---
 
-Install JDK
-
-Install mysql
-
+Install JDK  
+Install mysql  
 Install tomcat/nginx
 
 
@@ -44,14 +42,10 @@ Install tomcat/nginx
 	vi /etc/hosts
 ```
 
-10.0.3.207      sso.portal.unicom.local
-
-10.0.3.208      www.portal.unicom.local
-
-10.0.3.154      sit3.portal.unicom.local 
-
-10.0.3.211   	name.portal.unicom.local
-
+10.0.3.207      sso.portal.unicom.local  
+10.0.3.208      www.portal.unicom.local  
+10.0.3.154      sit3.portal.unicom.local  
+10.0.3.211   	name.portal.unicom.local  
 10.0.3.213 		intf2.portal.unicom.local
 
 tomcat启动日志查看：
