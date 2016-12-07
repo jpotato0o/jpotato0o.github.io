@@ -3,9 +3,11 @@ layout:            post
 title:             "Server-building"
 date:              2016-08-22 12:25:00 +0300
 tags:              Server 
-category:          server
+category:          Server
 author:            sjiang
 ---
+
+服务器部署程序所需步骤： 
 
 Install JDK  
 Install mysql  
