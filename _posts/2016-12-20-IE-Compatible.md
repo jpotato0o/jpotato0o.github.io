@@ -8,6 +8,7 @@ author:            sjiang
 ---
 
 ####1.Use-Agent
+
 浏览器模式决定了 Internet Explorer 发出请求时自带的 User-Agent，也决定了在默认情况下 Internet Explorer 使用哪一种文档模式来渲染页面  
 通常都会用user-agent中的关键字来判断浏览器版本类型，如下:  
 ```bash
@@ -56,6 +57,7 @@ window.addEventListener来判断这两种类型的浏览器
 ```
 
 ####2. <!DOCTYPE html>
+
 - Internet Explorer 7, 8, 9 默认模式
 Internet Explorer 7, 8, 9 会检测当前页面是否包含 <!DOCTYPE> 声明，如果有那就会用当前 IE 所支持最高的文档模式，如果没有，IE 则会使用 IE5 Quirks 文档模式  
 - Internet Explorer 10, 11 默认模式
