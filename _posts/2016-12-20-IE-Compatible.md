@@ -10,7 +10,7 @@ author:            sjiang
 ####1.Use-Agent
 浏览器模式决定了 Internet Explorer 发出请求时自带的 User-Agent，也决定了在默认情况下 Internet Explorer 使用哪一种文档模式来渲染页面  
 通常都会用user-agent中的关键字来判断浏览器版本类型，如下:  
-```java
+```bash
 	public static String responseFileName(String fileName,String agent){
 			try{
 			if(null != agent){
@@ -27,7 +27,7 @@ author:            sjiang
 		}
 ```
 或  
-```java
+```bash
 	// 文件名处理，否则会出现文件名为中文时不能下载
 	if (request.getHeader("User-Agent").toLowerCase().indexOf("firefox") > 0) {
 		originalName = new String(originalName.getBytes("UTF-8"), "ISO8859-1");// firefox浏览器
@@ -36,7 +36,7 @@ author:            sjiang
 			originalName = URLEncoder.encode(originalName, "UTF-8");
 	}
 ```  
-但程序随着浏览器版本更新会修改当中的字段，并且某些情况可以更改user-agent，所以建议用特性检测 
+但程序随着浏览器版本更新会修改当中的字段，并且某些情况可以更改user-agent，所以建议用特性检测  
 ```bash
    
 if（target.addEventListener）
