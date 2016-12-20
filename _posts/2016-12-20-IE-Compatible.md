@@ -12,7 +12,7 @@ author:            sjiang
 浏览器模式决定了 Internet Explorer 发出请求时自带的 User-Agent，也决定了在默认情况下 Internet Explorer 使用哪一种文档模式来渲染页面  
 通常都会用user-agent中的关键字来判断浏览器版本类型，如下:
   
-```
+```java
 	public static String responseFileName(String fileName,String agent){
 			try{
 			if(null != agent){
@@ -30,7 +30,7 @@ author:            sjiang
 ```
 或
 
-```
+```java
 	// 文件名处理，否则会出现文件名为中文时不能下载
 	if (request.getHeader("User-Agent").toLowerCase().indexOf("firefox") > 0) {
 		originalName = new String(originalName.getBytes("UTF-8"), "ISO8859-1");// firefox浏览器
@@ -42,17 +42,17 @@ author:            sjiang
 
 但程序随着浏览器版本更新会修改当中的字段，并且某些情况可以更改user-agent，所以建议用特性检测 
 
-```bash
+```javascript
 if（target.addEventListener）
 ```
 在实际使用中一般检查最多的是ie浏览器与标准dom浏览器的区别，这样可以使用window.addEventListener来判断这两种类型的浏览器
 
-```html
+```javascript
 	if(typeof window.addEventListener==="function") 
 		{ 
 	    	alert("DOM浏览器"); 
 		} 
-		else 
+	else 
 		{ 
 	   		alert("IE"); 
 		}  
@@ -88,7 +88,8 @@ transform:rotate(7deg);                 //统一标识语句。。。最好这�
 
 #### 4.创建有效的回退策略fallback
 意思是有不支持这种方式的替代方式 
-```
+
+```html
 data=picture.swg  
 <img src=“picture.png”>
 ```
