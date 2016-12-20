@@ -37,8 +37,10 @@ author:            sjiang
 	}
 ```  
 但程序随着浏览器版本更新会修改当中的字段，并且某些情况可以更改user-agent，所以建议用特性检测 
-```   
+```bash
+   
 if（target.addEventListener）
+
 ```  
 在实际使用中一般检查最多的是ie浏览器与标准dom浏览器的区别，这样可以使用
 window.addEventListener来判断这两种类型的浏览器 
