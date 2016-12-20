@@ -48,7 +48,7 @@ if（target.addEventListener）
 在实际使用中一般检查最多的是ie浏览器与标准dom浏览器的区别，这样可以使用window.addEventListener来判断这两种类型的浏览器
 
 ```javascript
-	if(typeof window.addEventListener==="function") 
+	if(typeof  window.addEventListener==="function") 
 		{ 
 	    	alert("DOM浏览器"); 
 		} 
@@ -63,9 +63,14 @@ if（target.addEventListener）
 - Internet Explorer 7, 8, 9 默认模式
 Internet Explorer 7, 8, 9 会检测当前页面是否包含 <!DOCTYPE> 声明，如果有那就会用当前 IE 所支持最高的文档模式，如果没有，IE 则会使用 IE5 Quirks 文档模式  
 - Internet Explorer 10, 11 默认模式
-Internet Explorer 10 和 Internet Explorer 11 不管当前页面是否包含 <!DOCTYPE> 声明，都会使用最高的文档模式，即：IE10 使用 IE0 标准文档模式，IE11 使用 IE11 标准文档模式  
+Internet Explorer 10 和 Internet Explorer 11 不管当前页面是否包含 <!DOCTYPE> 声明，都会使用最高的文档模式，即：IE10 使用 IE10 标准文档模式，IE11 使用 IE11 标准文档模式  
 
-用<meta http-equiv=“X-UA-comptaible” content=“IE=Edge”>来声明文档模式以哪个版本浏览器解析  
+用
+
+```html
+<meta http-equiv=“X-UA-comptaible” content=“IE=Edge”>
+```
+来声明文档模式以哪个版本浏览器解析  
 
 使用标准方法:  
 1. 为w3c标准化的方法  
