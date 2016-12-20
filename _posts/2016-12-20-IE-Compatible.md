@@ -28,7 +28,8 @@ author:            sjiang
 			return fileName;
 		}
 ```
-或  
+或
+
 ```
 	// 文件名处理，否则会出现文件名为中文时不能下载
 	if (request.getHeader("User-Agent").toLowerCase().indexOf("firefox") > 0) {
@@ -37,15 +38,15 @@ author:            sjiang
 		if (request.getHeader("User-Agent").toUpperCase().indexOf("MSIE") > 0) 
 			originalName = URLEncoder.encode(originalName, "UTF-8");
 	}
-```  
+``` 
+
 但程序随着浏览器版本更新会修改当中的字段，并且某些情况可以更改user-agent，所以建议用特性检测 
 
 ```bash
----
 if（target.addEventListener）
----
 ```
-在实际使用中一般检查最多的是ie浏览器与标准dom浏览器的区别，这样可以使用window.addEventListener来判断这两种类型的浏览器 
+在实际使用中一般检查最多的是ie浏览器与标准dom浏览器的区别，这样可以使用window.addEventListener来判断这两种类型的浏览器
+
 ```html
 	if(typeof window.addEventListener==="function") 
 		{ 
@@ -67,11 +68,12 @@ Internet Explorer 10 和 Internet Explorer 11 不管当前页面是否包含 <!D
 用<meta http-equiv=“X-UA-comptaible” content=“IE=Edge”>来声明文档模式以哪个版本浏览器解析  
 
 使用标准方法:  
-1. 为w3c标准化的方法
+1. 为w3c标准化的方法  
 2. 使用第三方库，框架（jQuery，angularJS,VUE）
 
 
 #### 3.标准化的CSS、DOM前缀
+
 ```html
 -ms-transform:rotate(7deg);             //-ms代表ie内核识别码
 -moz-transform:rotate(7deg);            //-moz代表火狐内核识别码
@@ -87,7 +89,7 @@ transform:rotate(7deg);                 //统一标识语句。。。最好这�
 #### 4.创建有效的回退策略fallback
 意思是有不支持这种方式的替代方式 
 ```
-data=picture.swg
+data=picture.swg  
 <img src=“picture.png”>
 ```
 
@@ -98,7 +100,7 @@ X-UA-Compatible > 浏览器默认行为模式，兼容模式
 
 #### 总结：
 浏览器兼容方式:  
-1. 代码内部兼容【虚拟机测试多IE版本浏览器】
+1. 代码内部兼容【虚拟机测试多IE版本浏览器  
 2. 浏览器方面兼容（企业模式（组策略），兼容性视图）【两者不要混用】
 
 - 确定站点支持的最高文档模式
