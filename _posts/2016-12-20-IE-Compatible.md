@@ -43,11 +43,24 @@ author:            sjiang
 但程序随着浏览器版本更新会修改当中的字段，并且某些情况可以更改user-agent，所以建议用特性检测 
 
 ```javascript
-if（target.addEventListener）
-```
-在实际使用中一般检查最多的是ie浏览器与标准dom浏览器的区别，这样可以使用window.addEventListener来判断这两种类型的浏览器
-
-```javascript
+	function registerEvent( sTargetID, sEventName, fnHandler ) 
+	{
+	   var oTarget = document.getElementById( sTargetID );
+	   if ( oTarget != null ) 
+	   {
+	      if ( oTarget.addEventListener ) {   
+	         oTarget.addEventListener( sEventName, fnToBeRun, false );
+	      } else {
+	        var sOnEvent = "on" + sEventName; 
+	        if ( oTarget.attachEvent ) 
+	        {
+	           oTarget.attachEvent( sOnEvent, fnHandler );
+	        }
+	      }
+	   }
+	}
+	/*本示例显示了一个利用功能检测来注册网页事件的函数，这在如何检测功能而非浏览器中有详细论述。 它优先采用基于标准的备选方法，而不是专有备选方法。 这种方法意味着，此函数适用于支持文档对象模型 (DOM) Level 3 事件标准的现代浏览器，也适用于不支持该标准的旧版 Windows Internet Explorer。 此版本的示例增加支持不属于其他任何一类的其他 Web 浏览器。
+创建 JavaScript 回退策略时，首先设计基于标准的解决方案，然后为备用浏览器提供支持。 这有助于确保你的网页在较大范围内正常运作，并减少旧版浏览器或非传统浏览器的负面影响。*/
 	if(typeof  window.addEventListener==="function") 
 		{ 
 	    	alert("DOM浏览器"); 
@@ -95,8 +108,12 @@ transform:rotate(7deg);                 //统一标识语句。。。最好这�
 意思是有不支持这种方式的替代方式 
 
 ```html
-	data=picture.swg  
-	<img src=“picture.png”>
+	<object data="vectorPanda.svg" type="image/svg+xml">
+   		<img src="pandaFallbackImage.png">
+	</object>
+	<audio id="myAudio" src="audiofile.wav">
+      The audio element is not supported by your browser.
+   </audio>
 ```
 
 #### 5.文档模式优先级
