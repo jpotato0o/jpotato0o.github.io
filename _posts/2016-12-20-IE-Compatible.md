@@ -68,7 +68,7 @@ Internet Explorer 10 和 Internet Explorer 11 不管当前页面是否包含 <!D
 用
 
 ```html
-<meta http-equiv=“X-UA-comptaible” content=“IE=Edge”>
+	<meta http-equiv=“X-UA-comptaible” content=“IE=Edge”>
 ```
 来声明文档模式以哪个版本浏览器解析  
 
@@ -95,8 +95,8 @@ transform:rotate(7deg);                 //统一标识语句。。。最好这�
 意思是有不支持这种方式的替代方式 
 
 ```html
-data=picture.swg  
-<img src=“picture.png”>
+	data=picture.swg  
+	<img src=“picture.png”>
 ```
 
 #### 5.文档模式优先级
