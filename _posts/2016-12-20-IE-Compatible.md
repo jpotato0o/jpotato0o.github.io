@@ -91,7 +91,7 @@ Internet Explorer 10 和 Internet Explorer 11 不管当前页面是否包含 <!D
 
 使用标准方法:  
 1. 为w3c标准化的方法  
-2. 使用第三方库，框架（jQuery，angularJS,VUE）
+2. 使用第三方库，框架（jQuery，angularJS, VUE）
 
 
 #### 3.标准化的CSS、DOM前缀
@@ -117,7 +117,7 @@ transform:rotate(7deg);                 //统一标识语句。。。最好这�
 	</object>
 	<audio id="myAudio" src="audiofile.wav">
       The audio element is not supported by your browser.
-   </audio>
+    </audio>
 ```
 
 #### 5.文档模式优先级
