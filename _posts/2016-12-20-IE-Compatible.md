@@ -4,7 +4,7 @@ title:             "IE-Compatible"
 date:              2016-12-20 16:31:00 +0300
 tags:              IE, Compatible  
 category:          IE
-author:            SJiang
+author:            sjiang
 ---
 
 #### 1.Use-Agent

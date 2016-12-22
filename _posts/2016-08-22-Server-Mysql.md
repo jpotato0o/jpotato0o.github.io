@@ -4,7 +4,7 @@ title:             "Server-building"
 date:              2016-08-22 12:25:00 +0300
 tags:              Server 
 category:          Server
-author:            SJiang
+author:            sjiang
 ---
 
 服务器部署程序所需步骤： 
