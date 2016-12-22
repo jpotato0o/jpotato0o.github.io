@@ -85,6 +85,7 @@ Internet Explorer 10 和 Internet Explorer 11 不管当前页面是否包含 <!D
 用
 
 ```html
+	//Edge 模式通知 Windows Internet Explorer 以最高级别的可用模式显示内容
 	<meta http-equiv=“X-UA-comptaible” content=“IE=Edge”>
 ```
 来声明文档模式以哪个版本浏览器解析  
